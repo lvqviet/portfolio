@@ -9,13 +9,14 @@
   min-width: 76rem;
 }
 
-h2 {
+.education h2 {
   font-family: 'Saira Extra Condensed', sans-serif;
-  font-size: 4.5rem;
+  font-size: 4rem;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
-h3 {
+.resume-content h3 {
   font-family: 'Saira Extra Condensed', sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
@@ -23,6 +24,10 @@ h3 {
 
 .resume-item {
   display: flex;
+}
+
+.resume-item img {
+  width: 12rem;
 }
 
 .resume-content {
@@ -33,9 +38,12 @@ h3 {
 .major {
   font-family: 'Saira Extra Condensed', sans-serif;
   font-size: 1.5rem;
+  font-weight: bold;
+  color: #868e96;
 }
 
 .resume-date {
-  min-width: 18rem;
+  min-width: 30rem;
   text-align: right;
+  font-size: 17px;
 }

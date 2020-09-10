@@ -1,5 +1,6 @@
 import React from 'react';
-import iconFb from '../../../images/logoFacebook.svg';
+import iconFb from '../../../images/facebook.svg';
+import iconGit from '../../../images/github.svg';
 // import PropTypes from 'prop-types';
 import './about.css';
 
@@ -29,6 +30,7 @@ function About(props) {
       </p>
       <div className="social-icon">
         <img src={iconFb} alt="facebook" />
+        <img src={iconGit} alt="github" />
       </div>
     </div>
   );

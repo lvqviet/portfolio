@@ -1,12 +1,12 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
-// import './about.css';
+import './project.css';
 
 Project.propTypes = {};
 
 function Project(props) {
   return (
-    <div className="contact">
+    <div className="project">
       <h2>Project</h2>
     </div>
   );

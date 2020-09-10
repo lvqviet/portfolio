@@ -1,5 +1,6 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
+import logoPtit from '../../../images/logoPtit.jpg';
 import './education.css';
 
 Education.propTypes = {};
@@ -9,6 +10,7 @@ function Education(props) {
     <div className="education">
       <h2>Education</h2>
       <div className="resume-item">
+        <img src={logoPtit} alt="logoPtit" />
         <div className="resume-content">
           <h3>Học viện công nghệ bưu chính viễn thông</h3>
           <div className="major">ngành công nghệ thông tin</div>

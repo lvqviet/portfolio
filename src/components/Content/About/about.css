@@ -30,9 +30,17 @@ h1 span {
   color: rgb(34, 181, 83);
 }
 
-p {
+.about p {
   font-size: 1.15rem;
   font-weight: 400;
   color: #868e96;
   margin-bottom: 3rem !important;
+}
+
+.social-icon {
+  display: flex;
+}
+
+.social-icon img {
+  width: 60px;
 }
