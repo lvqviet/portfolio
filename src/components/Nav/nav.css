@@ -1,0 +1,41 @@
+nav {
+  background-color: rgb(34, 181, 83);
+  height: 100vh;
+  width: 72rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.nav-links {
+  margin: 45px auto;
+  padding-left: 0;
+  list-style-type: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.nav-links a {
+  color: rgb(218 218 218);
+}
+
+.nav-links a:hover {
+  color: rgb(255 255 255);
+}
+
+.avatar {
+  width: 275px;
+}
+
+.avatar img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}

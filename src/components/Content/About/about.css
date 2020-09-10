@@ -1,0 +1,38 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 3rem !important;
+  margin-right: 3rem;
+}
+
+h1 {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 6rem;
+  font-weight: bold;
+  line-height: 5.5rem;
+  margin-bottom: 0 !important;
+}
+
+h1 span {
+  color: rgb(34, 181, 83);
+}
+
+.contact {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 3rem !important;
+}
+
+.contact a {
+  color: rgb(34, 181, 83);
+}
+
+p {
+  font-size: 1.15rem;
+  font-weight: 400;
+  color: #868e96;
+  margin-bottom: 3rem !important;
+}

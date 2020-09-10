@@ -1,0 +1,41 @@
+.education {
+  margin-top: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 3rem !important;
+  margin-right: 3rem;
+  min-width: 76rem;
+}
+
+h2 {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.resume-item {
+  display: flex;
+}
+
+.resume-content {
+  min-width: 20rem;
+  text-transform: uppercase;
+}
+
+.major {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 1.5rem;
+}
+
+.resume-date {
+  min-width: 18rem;
+  text-align: right;
+}
