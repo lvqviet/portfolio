@@ -29,7 +29,11 @@ function About(props) {
         Conference held at IIIT Allahabad.
       </p>
       <div className="social-icon">
-        <img src={iconFb} alt="facebook" />
+        <img
+          src={iconFb}
+          alt="facebook"
+          style={{ marginRight: '20px' }}
+        />
         <img src={iconGit} alt="github" />
       </div>
     </div>

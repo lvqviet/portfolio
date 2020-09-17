@@ -1,41 +1,40 @@
 nav {
-  background-color: rgb(34, 181, 83);
   height: 100vh;
-  width: 72rem;
+  width: 17rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  background-color: rgb(34, 181, 83);
+  position: fixed;
 }
 
 .main {
   display: flex;
   flex-direction: column;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .nav-links {
-  margin: 45px auto;
+  margin: 3rem auto;
   padding-left: 0;
   list-style-type: none;
-  font-size: 25px;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 .nav-links a {
-  color: rgb(218 218 218);
+  /* color: rgb(218 218 218); */
+  color: rgb(174 210 168);
 }
 
 .nav-links a:hover {
   color: rgb(255 255 255);
 }
 
-.avatar {
-  width: 275px;
-}
-
 .avatar img {
-  width: 180px;
-  height: 180px;
+  width: 10rem;
+  height: 10rem;
   border-radius: 50%;
+  border: 0.5rem solid #8cdf90;
 }

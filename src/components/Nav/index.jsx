@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './nav.css';
 import avatar from '../../images/IMG_1466.jpg';
 
@@ -14,21 +14,36 @@ function Nav(props) {
         </div>
 
         <ul className="nav-links">
-          <Link to="/about">
+          <NavLink
+            activeStyle={{ color: 'white' }}
+            to="/portfolio/about"
+          >
             <li>About</li>
-          </Link>
-          <Link to="/education">
+          </NavLink>
+          <NavLink
+            activeStyle={{ color: 'white' }}
+            to="/portfolio/education"
+          >
             <li>Education</li>
-          </Link>
-          <Link to="/skills">
+          </NavLink>
+          <NavLink
+            activeStyle={{ color: 'white' }}
+            to="/portfolio/skills"
+          >
             <li>Skills</li>
-          </Link>
-          <Link to="/interests">
+          </NavLink>
+          <NavLink
+            activeStyle={{ color: 'white' }}
+            to="/portfolio/interests"
+          >
             <li>Interests</li>
-          </Link>
-          <Link to="/projects">
+          </NavLink>
+          <NavLink
+            activeStyle={{ color: 'white' }}
+            to="/portfolio/projects"
+          >
             <li>Projects</li>
-          </Link>
+          </NavLink>
         </ul>
       </div>
     </nav>
