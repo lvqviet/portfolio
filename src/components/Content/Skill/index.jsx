@@ -9,13 +9,13 @@ function Skill(props) {
     <div className="skill">
       <h2>Skills</h2>
       <div className="subheading">Programming languages & tools</div>
-      <div className="skill-items">
+      <div className="container">
         <ul>
-          <li>C/C++</li>
-          <li>Javascript</li>
-          <li>Html5</li>
-          <li>Css</li>
-          <li>React</li>
+          <li className="c">C/C++</li>
+          <li className="js">Javascript</li>
+          <li className="html">Html5</li>
+          <li className="css">Css</li>
+          <li className="react">React</li>
         </ul>
       </div>
     </div>
